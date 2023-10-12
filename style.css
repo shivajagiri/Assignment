@@ -1,0 +1,233 @@
+body {
+    font-family: 'Arial', sans-serif;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(13, 98, 98);
+}
+
+header {
+    color: white;
+    padding: 10px;
+    margin-top: 2rem;
+    width: 90%;
+    justify-content: center;
+}
+
+header h4{
+    margin: 2rem 0 0 5rem;
+    width: 40%;
+}
+
+ul {
+    align-items: center;
+    list-style-type: none;
+    margin-left: 7rem;
+    padding: 0;
+}
+
+li {
+    display: inline-block;
+    margin-left: 5rem;
+    cursor: pointer;
+}
+
+
+li #Startup{
+    pointer-events: none;
+    color: white;
+    font-size: 1.5rem;
+    margin-right: 11rem;
+    margin-left: 4rem;
+    font-weight: bold
+    
+}
+
+
+
+li span{
+    color: #2c2a2a;
+}
+
+.Purchase {
+    width: 10rem;
+    background-color: #0fdede;
+    color: white;
+    border: none;
+    padding: 10px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.left-about{
+    margin-top: 3rem;
+}
+
+.left {
+    flex: 1;
+    text-align: center;
+}
+
+main h2{
+    margin: 0;
+    margin-left: 15rem;
+}
+
+h2 {
+    width: 50%;
+    text-align: start;
+    color: white;
+    font-size: 3rem;
+    margin-top: 2rem;
+
+}
+
+main p {
+    text-align: start;
+    color: white;
+    width: 70%;
+    margin-left: 13rem;
+    font-size: 1.2rem;
+    padding-left: 2rem;
+    /* margin-top: 10px; */
+}
+
+.learn {
+    width: 15%;
+    margin-right: 10rem;
+    background-color: #c209fb;
+    color: white;
+}
+
+.learn:hover{
+    background-color: white;
+    color: black;
+}
+
+.right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page {
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#email,
+#password {
+    margin-bottom: 30px;
+}
+
+#email input{
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+#password input{
+    width: 70%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+
+#checkbox{
+    display: flex;
+}
+
+
+#checkbox input{
+    margin-left: 4rem;
+    width: 1rem;
+}
+
+
+#checkbox h4{
+    font-weight: lighter;
+}
+
+
+
+button {
+    background-color: #482BE7;
+    width: 60%;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 20px;
+    /* margin-bottom: 3rem; */
+}
+
+.Twitter{
+    background-color:#1DA1F2;
+
+}
+
+.Twitter:hover{
+    color: black;
+    background-color: #8aa9cb;
+}
+
+.ortag{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+hr{
+   
+    width: 25%;
+    height: 0;
+    margin-top: 2rem;
+
+}
+
+
+button:hover {
+    background-color: #214e68;
+}
+
+h3 {
+    color: #555;
+    font-weight: lighter;
+    margin-top: 20px;
+}
+
+span {
+    color: #25DAC5;
+    cursor: pointer;
+}
+
+/* Style Twitter button differently */
+button.twitter-btn {
+    background-color: #1da1f2;
+}
+
+button.twitter-btn:hover {
+    background-color: #0d8ecf;
+}
